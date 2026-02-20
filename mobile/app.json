@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Swasth Saathi",
+    "slug": "swasth-saathi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/images/start.png",
+    "scheme": "swasth-saathi",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.swasthsaathi.app",
+      "adaptiveIcon": {
+        "foregroundImage": "assets/images/start.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "assets/images/start.png"
+    },
+    "splash": {
+      "image": "assets/images/start.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "assets/images/start.png",
+          "imageWidth": 1200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
