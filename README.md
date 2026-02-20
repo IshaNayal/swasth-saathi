@@ -95,7 +95,13 @@ python main.py
 
 ---
 
-## 📄 License
+## � Documentation
+- [Architecture & Implementation Plan](ARCHITECTURE.md)
+- [Production Deployment Guide](DEPLOYMENT.md)
+
+---
+
+## �📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
